@@ -175,7 +175,7 @@ class MyCalendarScreenState extends State<MyCalendarScreen>{
 
                             },
                             style: ElevatedButton.styleFrom(
-                                primary: AppConstants.primaryColor
+                              backgroundColor: AppConstants.primaryColor
                             ),
                           ),
                         ),
