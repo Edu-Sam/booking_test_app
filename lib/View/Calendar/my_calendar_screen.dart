@@ -194,7 +194,7 @@ class MyCalendarScreenState extends State<MyCalendarScreen>{
     );
   }
 
-  createCalendar(){
+  /**createCalendar(){
     DateTime currentMonth=DateTime.now();
 
   }
@@ -269,7 +269,6 @@ class MyCalendarScreenState extends State<MyCalendarScreen>{
   }
 
   bool checkCurrentDay(DateTime calendarDay){
-   // return DateTime.now().difference(calendarDay).inDays == 0;
     return DateTime.now().isSameDate(calendarDay);
   }
 
@@ -289,5 +288,5 @@ class MyCalendarScreenState extends State<MyCalendarScreen>{
         }
       });
     });
-  }
+  } **/
 }
